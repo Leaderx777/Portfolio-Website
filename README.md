@@ -1,9 +1,3 @@
-Here’s a clean, recruiter-ready \*\*README.md\*\* you can drop straight into your `Portfolio-Website` repo. It ties together your live site, resume, and flagship projects:
-
-
-
-```markdown
-
 \# Portfolio Website 🌐
 
 
