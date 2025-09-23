@@ -99,7 +99,3 @@ An AI-powered investment scouting tool that:
 
 
 ⚡ This portfolio is part of my larger \*\*LifePath system\*\*: building tools, projects, and businesses that merge personal growth with technical innovation.
-
-```
-git commit -m "Add polished README for portfolio"
-
