@@ -1,5 +1,3 @@
-
-
 \# Portfolio Website 🌐
 
 
@@ -103,36 +101,5 @@ An AI-powered investment scouting tool that:
 ⚡ This portfolio is part of my larger \*\*LifePath system\*\*: building tools, projects, and businesses that merge personal growth with technical innovation.
 
 ```
-
-
-
----
-
-
-
-✅ Next step:
-
-Save this text as `README.md` in your repo root. Then run:
-
-
-
-```bash
-
-git add README.md
-
 git commit -m "Add polished README for portfolio"
-
-git push origin main
-
-```
-
-
-
-This way, your repo homepage looks professional on GitHub and points recruiters straight to your live site + resume.
-
-
-
-Do you want me to also create a \*\*README badge block\*\* (build, deploy, codecov, etc.) at the top like you had in `mlops-demo` so it looks even more professional?
-
-
 
