@@ -103,3 +103,7 @@ An AI-powered investment scouting tool that:
 
 
 [![Status: Live](https://img.shields.io/badge/Status-Live-green)](https://leaderx777.github.io/Portfolio-Website)
+
+[**View Site →**](https://leaderx777.github.io/Portfolio-Website)
+
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Enabled-brightgreen)
