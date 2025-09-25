@@ -99,3 +99,5 @@ An AI-powered investment scouting tool that:
 
 
 ⚡ This portfolio is part of my larger \*\*LifePath system\*\*: building tools, projects, and businesses that merge personal growth with technical innovation.
+[![Status: Live](https://img.shields.io/badge/Status-Live-green)](https://leaderx777.github.io/Portfolio-Website)
+
