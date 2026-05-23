@@ -20,9 +20,9 @@ It’s designed to showcase my skills, projects, and provide quick access to my 
 
 \## 🔹 About Me
 
-I’m \*\*David Leadley (dAIvd)\*\* — an MLOps Engineer in training, Automation Specialist, and IT Professional.  
+I’m \*\*David Leadley (dAIvd)\*\* — I have great passion for Machine Learning?AI and Automation. 
 
-This site highlights my journey in machine learning, automation, and full-stack development.
+This site highlights my journey in machine learning, automation, and full-stack technology.
 
 
 
