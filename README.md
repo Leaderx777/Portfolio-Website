@@ -1,40 +1,18 @@
-# Portfolio Website
+# David Leadley — Professional Portfolio
 
-Professional portfolio built with HTML/CSS and hosted on GitHub Pages. It highlights technical experience, selected projects, and resume access.
+A responsive, accessible static portfolio highlighting IT systems, automation and applied AI projects.
 
-**Live Site:** https://leaderx777.github.io/Portfolio-Website/  
-**Resume:** [resume.pdf](resume/resume.pdf)
+**Live site:** https://leaderx777.github.io/Portfolio-Website/
 
-## About
+## Featured repositories
+- [MLOps Demo](https://github.com/Leaderx777/mlops-demo) — ML model serving, tracking and tests (demonstration).
+- [PropertyScout / Land Scout Lite](https://github.com/Leaderx777/land-scout-lite) — property screening and deal-analysis prototype.
+- [Land Value Predictor](https://github.com/Leaderx777/land-value-predictor) — experimental property valuation research; not an appraisal service.
 
-David Leadley — IT professional focused on AI, automation, MLOps, and practical software systems.
+## Technology
+Plain HTML and CSS with a minimal progressive-enhancement script. No build tooling required. Responsive layouts, semantic landmarks, keyboard focus styles and reduced-motion support.
 
-## Featured Projects
+## Updating
+Edit `index.html` for content and `styles.css` for presentation. The résumé is linked from `resume/resume.pdf`; review it for accuracy and freshness before sharing with employers.
 
-### MLOps Demo
-End-to-end MLOps workflow featuring MLflow experiment tracking, Prefect orchestration, FastAPI model serving, DVC, automated testing, and GitHub Actions.
-
-Repository: https://github.com/Leaderx777/mlops-demo
-
-### Land Value Predictor
-Machine-learning project for structured property valuation with FastAPI, Streamlit, automated testing, and a real-data research workflow using public county parcel and sales data.
-
-Repository: https://github.com/Leaderx777/land-value-predictor
-
-## Technical Stack
-
-- Python
-- JavaScript
-- HTML/CSS
-- FastAPI
-- Scikit-learn
-- MLflow
-- Prefect
-- DVC
-- GitHub Actions
-- Docker
-- CI/CD
-
-## Contact
-
-Email: dleadley@yahoo.com
+The redesigned site is prepared in a separate branch for review before merging into `main`.
