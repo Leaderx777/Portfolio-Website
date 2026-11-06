@@ -1,117 +1,59 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>dAIvd | Cutting-Edge Portfolio</title>
-  <style>
-    body {
-      margin:0; background:#050510; color:#e0e0f0; font-family:sans-serif;
-      overflow-x:hidden;
-    }
-    header { text-align:center; padding:40px 20px; position:relative; }
-    h1 { font-size:clamp(28px,5vw,52px); margin:0; background:linear-gradient(90deg,#00eaff,#1e3aff,#a78bfa);
-      -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
-    .tagline { color:#9ca3af; margin-top:12px; font-size:18px; }
-
-    .brain-wrap {
-      position:relative; width:260px; height:260px; margin:40px auto;
-    }
-    .circuit-brain {
-      width:100%; height:100%;
-      stroke-dasharray:1200; stroke-dashoffset:1200; animation:draw 6s linear forwards infinite alternate;
-      stroke:#00eaff; fill:none; stroke-width:2.2;
-      filter:drop-shadow(0 0 8px #00eaff);
-    }
-    @keyframes draw { to { stroke-dashoffset:0; } }
-
-    .ring {
-      position:absolute; top:50%; left:50%; border:2px solid rgba(0,234,255,.6); border-radius:50%;
-      transform:translate(-50%,-50%); animation:spin 18s linear infinite;
-      box-shadow:0 0 20px rgba(0,234,255,.4), inset 0 0 30px rgba(167,139,250,.3);
-    }
-    .ring:nth-child(1){ width:340px;height:340px;animation-duration:30s; }
-    .ring:nth-child(2){ width:420px;height:420px;animation-duration:50s;border-color:rgba(167,139,250,.5); }
-    @keyframes spin { to { transform:translate(-50%,-50%) rotate(360deg); } }
-
-    canvas#sparks {
-      position:fixed; top:0; left:0; width:100%; height:100%; z-index:-1; background:#050510;
-    }
-
-    .btn {
-      display:inline-block; margin:14px; padding:12px 20px; border-radius:12px;
-      background:linear-gradient(90deg,#00eaff,#1e3aff,#a78bfa);
-      color:#fff; text-decoration:none; font-weight:bold; box-shadow:0 0 18px rgba(0,234,255,.6);
-      transition:transform .2s;
-    }
-    .btn:hover { transform:translateY(-2px) scale(1.02); }
-  </style>
-</head>
-<body>
-<canvas id="sparks"></canvas>
-<header>
-  <h1>David Leadley</h1>
-  <div class="tagline">AI • MLOps • Automation • Front-End Innovation</div>
-
-  <div class="brain-wrap">
-    <div class="ring"></div>
-    <div class="ring"></div>
-    <svg viewBox="0 0 512 512" class="circuit-brain">
-      <path d="M256 32C150 32 64 118 64 224c0 86 54 159 129 187v69h126v-69c75-28 129-101 129-187 0-106-86-192-192-192z"/>
-    </svg>
-  </div>
-
-  <a href="#projects" class="btn">⚡ Explore Projects</a>
-  <a href="#resume" class="btn">⬇️ Resume</a>
-</header>
-
-<main style="padding:40px;max-width:1100px;margin:auto">
-  <section id="projects">
-    <h2>⚡ Flagship: End-to-End MLOps Project</h2>
-    <p><strong>MLOps Demo</strong> — A complete machine-learning operations workflow covering model training, MLflow experiment tracking, Prefect orchestration, FastAPI model serving, DVC, automated testing, and GitHub Actions.
-    <a href="https://github.com/Leaderx777/mlops-demo" target="_blank" rel="noopener">View the project on GitHub →</a></p>
-
-    <h2>🌐 Prototype Project</h2>
-    <p><strong>Land Scout Lite</strong> — A Streamlit prototype for organizing and screening land-investment opportunities from structured deal data.
-    <a href="https://github.com/Leaderx777/land-scout-lite" target="_blank" rel="noopener">View the prototype on GitHub →</a></p>
-  </section>
-
-  <section id="resume" style="margin-top:60px">
-    <h2>⬇️ Resume</h2>
-    <p>Download the bundled resume file directly here:</p>
-    <a href="resume/resume.pdf" target="_blank" class="btn">📄 Download My Resume</a>
-  </section>
-
-  <section id="contact" style="margin-top:60px">
-    <h2>📬 Contact</h2>
-    <p>Email: <a href="mailto:dleadley@yahoo.com">dleadley@yahoo.com</a></p>
-    <p>GitHub: <a href="https://github.com/Leaderx777" target="_blank" rel="noopener">github.com/Leaderx777</a></p>
-  </section>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080e18">
+<meta name="description" content="David S. Leadley — web design concepts, automation, applied AI, and software development. Explore real technical repositories and visual design studies.">
+<meta property="og:title" content="David S. Leadley | Creative Technology Portfolio">
+<meta property="og:description" content="Where visual design meets practical technology.">
+<title>David S. Leadley — Creative Technology & Automation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header"><div class="shell nav">
+<a href="#home" class="brand" aria-label="David S. Leadley home"><svg class="mountain-logo" viewBox="0 0 94 50" aria-hidden="true"><path d="M3 42 32 10l11 13L59 2l32 40-30-18-10 10-18-12z" fill="#f3b84e"/><path d="m21 41 14-18 9 9 16-18 17 27-18-14-15 12-10-9z" fill="#0d1624"/></svg><span><strong>David S. Leadley</strong><small>DESIGN · DEVELOPMENT · AUTOMATION</small></span></a>
+<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+<nav id="main-nav" aria-label="Primary navigation"><a href="#home">Home</a><a href="#projects">Projects</a><a href="#design">Design showcase</a><a href="#services">Capabilities</a><a href="#about">About</a><a href="#contact">Contact</a></nav>
+<a class="nav-contact" href="mailto:dleadley@yahoo.com">Get in touch <span aria-hidden="true">↗</span></a>
+</div></header>
+<main id="main">
+<section id="home" class="hero">
+<div class="hero-photo" role="img" aria-label="Cinematic mountain valley landscape"></div><div class="hero-shade"></div><div class="hero-grid" aria-hidden="true"></div>
+<div class="shell hero-content"><p class="overline"><span class="gold-line"></span> CREATIVE TECHNOLOGY & PRACTICAL SOLUTIONS</p>
+<h1>Design that inspires.<br><em>Technology that works.</em></h1>
+<p class="hero-lead">I bring together visual design, software development and AI-driven automation to turn ambitious ideas into useful digital experiences.</p>
+<div class="hero-actions"><a class="btn gold" href="#design">Explore creative work <span aria-hidden="true">↗</span></a><a class="btn ghost" href="#projects">View technical projects <span aria-hidden="true">↗</span></a></div>
+<div class="hero-footnote"><span class="pulse"></span> VISUAL DESIGN STUDIES + WORKING SOFTWARE REPOSITORIES</div>
+</div>
+<div class="hero-monogram" aria-hidden="true"><svg viewBox="0 0 380 410"><defs><linearGradient id="eagleG" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff3cf"/><stop offset=".45" stop-color="#e4ac4a"/><stop offset="1" stop-color="#8b501e"/></linearGradient></defs><path d="M40 85C119 20 232 15 333 74c-47-7-86 1-110 18 46-5 92 4 130 31-62-6-96 6-118 25 45-1 78 15 106 39-63-12-102 0-132 29 15 11 30 26 41 46-37-15-69-17-100-9l-43 43 12-58-39-21 55-11 18-46-43-22 59-4 14-42c-43 3-87 0-143-7z" fill="url(#eagleG)" opacity=".9"/><path d="m230 139 100 18-93 34-29 44-8-55z" fill="#fff4d4"/><circle cx="214" cy="149" r="6" fill="#101723"/><path d="m312 186 50 12-65 24z" fill="#c7822f"/></svg></div>
+</section>
+<section class="capability-strip" aria-label="Areas of expertise"><div class="shell strip-inner">
+<div><span class="strip-icon">◈</span><strong>Web design</strong><small>Visual & responsive</small></div>
+<div><span class="strip-icon">▧</span><strong>UI / UX</strong><small>Interfaces with purpose</small></div>
+<div><span class="strip-icon">⌘</span><strong>Software</strong><small>Custom applications</small></div>
+<div><span class="strip-icon">⟡</span><strong>AI & automation</strong><small>Connected workflows</small></div>
+<div><span class="strip-icon">▥</span><strong>Data & analytics</strong><small>Applied intelligence</small></div>
+</div></section>
+<section class="section" id="design"><div class="shell">
+<div class="section-title"><div><p class="overline">01 / VISUAL SHOWCASE</p><h2>Built to make an <em>impression.</em></h2><p>Creative direction, branded website concepts and visual storytelling. These are portfolio design studies, not commissioned client sites.</p></div><span class="section-index">DESIGN / 001</span></div>
+<div class="showcase-grid">
+<article class="showcase-card showcase-pride"><div class="showcase-visual"><div class="showcase-topline"><span>BRAND & WEBSITE CONCEPT</span><span>01 / 03</span></div><div class="pride-art"><div class="pride-moon"></div><div class="pride-mountains"></div><div class="wolf-mark" aria-hidden="true">◆</div><p class="pride-name">Sense of Pride</p><small>CRAFT · CHARACTER · QUALITY</small></div><span class="visual-bottom">IDENTITY / ART DIRECTION / WEB EXPERIENCE</span></div><div class="showcase-copy"><div><p class="card-kicker">BRANDING & WEB DESIGN</p><h3>Sense of Pride</h3><p>A dramatic visual identity concept using atmosphere, strong typography and premium service positioning.</p></div><span class="concept-pill">Design study</span></div></article>
+<article class="showcase-card showcase-food"><div class="showcase-visual food-art"><div class="showcase-topline"><span>EDITORIAL & DIGITAL PRODUCT DESIGN</span><span>02 / 03</span></div><div class="food-copy"><span>THE RECIPE COLLECTION</span><h3>Simply<br><i>Delicious.</i></h3><p>GOOD FOOD. BEAUTIFULLY PRESENTED.</p></div><span class="visual-bottom">EDITORIAL / TYPOGRAPHY / PRODUCT PRESENTATION</span></div><div class="showcase-copy"><div><p class="card-kicker">EDITORIAL & PRODUCT DESIGN</p><h3>Simply Delicious</h3><p>A culinary publishing concept blending food photography, expressive typography and a polished storefront aesthetic.</p></div><span class="concept-pill">Design study</span></div></article>
+<article class="showcase-card showcase-warrior"><div class="showcase-visual warrior-art"><div class="showcase-topline"><span>CONCEPT ART & VISUAL STORYTELLING</span><span>03 / 03</span></div><div class="warrior-copy"><small>A STORY OF RESILIENCE</small><h3>THE DARK<br>WARRIOR</h3><p>FORGED THROUGH ADVERSITY</p></div><span class="visual-bottom">COVER DESIGN / MOOD / CREATIVE DIRECTION</span></div><div class="showcase-copy"><div><p class="card-kicker">ART DIRECTION</p><h3>The Dark Warrior</h3><p>A cinematic concept exploring atmosphere, narrative, composition and bold visual contrast.</p></div><span class="concept-pill">Design study</span></div></article>
+</div>
+</div></section>
+<section class="section projects-section" id="projects"><div class="shell">
+<div class="section-title"><div><p class="overline">02 / REAL REPOSITORIES</p><h2>Engineering behind <em>the visuals.</em></h2><p>Technical projects with source code on GitHub. Screen-style graphics below are illustrative, not live screenshots or verified performance metrics.</p></div><span class="section-index">CODE / 002</span></div>
+<div class="project-grid">
+<article class="project-card"><div class="project-art property-scene"><div class="window"><div class="window-bar"><span class="dots">● ● ●</span><strong>PropertyScout</strong><small>Research workspace</small></div><div class="property-ui"><div class="property-image"></div><div class="property-details"><span>PROPERTY ANALYSIS</span><strong>Opportunity screening</strong><div class="ui-rule"></div><small>ROI assessment</small><div class="ui-progress"><i></i></div><small>Comparables & deal criteria</small><div class="ui-progress secondary"><i></i></div></div></div></div></div><div class="project-body"><p class="card-kicker">PYTHON / STREAMLIT / DATA WORKFLOWS</p><h3>PropertyScout</h3><p>Property research and investment screening prototype, evolved from Land Scout Lite.</p><a href="https://github.com/Leaderx777/land-scout-lite" target="_blank" rel="noopener noreferrer">Explore repository <span aria-hidden="true">↗</span></a></div></article>
+<article class="project-card"><div class="project-art valuation-scene"><div class="window"><div class="window-bar"><span class="dots">● ● ●</span><strong>Land Value Predictor</strong><small>Research model</small></div><div class="valuation-ui"><div class="valuation-land"></div><div class="valuation-overlay"><small>LAND VALUATION RESEARCH</small><strong>Data-driven analysis</strong><div class="valuation-graph"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><span>Experimental model · No appraisal claims</span></div></div></div></div><div class="project-body"><p class="card-kicker">MACHINE LEARNING / PUBLIC DATA</p><h3>Land Value Predictor</h3><p>Exploratory valuation research using property records and machine learning; not appraisal-grade.</p><a href="https://github.com/Leaderx777/land-value-predictor" target="_blank" rel="noopener noreferrer">Explore repository <span aria-hidden="true">↗</span></a></div></article>
+<article class="project-card"><div class="project-art mlops-scene"><div class="window"><div class="window-bar"><span class="dots">● ● ●</span><strong>MLOps Demo</strong><small>Development environment</small></div><div class="mlops-ui"><aside><span>Overview</span><span>Models</span><span>Experiments</span><span>API</span></aside><div class="mlops-main"><div class="mlops-stat"><span>API SERVICE</span><strong>FastAPI</strong></div><div class="mlops-stat"><span>TRACKING</span><strong>MLflow</strong></div><div class="mlops-chart"><div class="mlops-line"></div><small>Illustrative experiment activity</small></div></div></div></div></div><div class="project-body"><p class="card-kicker">FASTAPI / MLFLOW / AUTOMATED TESTING</p><h3>MLOps Demo</h3><p>Hands-on model-serving demonstration with experiment tracking, API endpoints and tests.</p><a href="https://github.com/Leaderx777/mlops-demo" target="_blank" rel="noopener noreferrer">Explore repository <span aria-hidden="true">↗</span></a></div></article>
+</div></div></section>
+<section class="section expertise" id="services"><div class="shell"><div class="section-title"><div><p class="overline">03 / CAPABILITIES</p><h2>Creative thinking.<br><em>Technical execution.</em></h2></div></div><div class="expertise-grid"><div><span class="expertise-num">01</span><h3>Design & presentation</h3><p>Website concepts, visual systems, layouts and clear digital experiences.</p></div><div><span class="expertise-num">02</span><h3>Automation & integration</h3><p>Python workflows, APIs and software designed to reduce repetitive work.</p></div><div><span class="expertise-num">03</span><h3>IT & systems</h3><p>Technical support, systems administration and practical infrastructure experience.</p></div><div><span class="expertise-num">04</span><h3>Applied AI & analytics</h3><p>Model experiments, data analysis and prototype decision-support tools.</p></div></div></div></section>
+<section class="section about-section" id="about"><div class="shell about-layout"><div><p class="overline">04 / THE PERSON BEHIND THE WORK</p><h2>Experience meets <em>curiosity.</em></h2><p>My foundation is in IT support and systems administration, with experience at ATS and Cyient and later independent technical work. Today, I’m expanding that background through software projects, automation and applied AI.</p><a class="btn gold" href="resume/resume.pdf" target="_blank" rel="noopener noreferrer">View résumé <span aria-hidden="true">↗</span></a></div><div class="about-panel"><h3>Background at a glance</h3><div><span>2009–2012</span><strong>ATS · Field service & support</strong></div><div><span>2012–2016</span><strong>Cyient · Systems & end-user support</strong></div><div><span>2016–present</span><strong>Independent IT & project work</strong></div><div><span>Education</span><strong>A.A.S. Computer Science</strong></div><div><span>Continued study</span><strong>Vanderbilt AI Agent Developer specialization</strong></div><small>Earlier CompTIA certifications are expired; see résumé for details.</small></div></div></section>
+<section class="contact-section" id="contact"><div class="shell contact-layout"><div><p class="overline">05 / CONNECT</p><h2>Have a project in mind?<br><em>Let’s make it real.</em></h2><p>Discuss a technical project, collaboration or opportunity.</p></div><div class="contact-buttons"><a class="btn gold" href="mailto:dleadley@yahoo.com">Email David <span aria-hidden="true">↗</span></a><a class="btn ghost" href="https://github.com/Leaderx777" target="_blank" rel="noopener noreferrer">View GitHub <span aria-hidden="true">↗</span></a></div></div></section>
 </main>
-
-<script>
-const canvas=document.getElementById('sparks');
-const ctx=canvas.getContext('2d');
-resize();
-window.addEventListener('resize',resize);
-function resize(){canvas.width=innerWidth;canvas.height=innerHeight;}
-let sparks=[];
-for(let i=0;i<100;i++){sparks.push({x:Math.random()*canvas.width,y:Math.random()*canvas.height,vx:(Math.random()-0.5)*1.5,vy:(Math.random()-0.5)*1.5,r:Math.random()*2+1});}
-function loop(){
-  ctx.fillStyle='rgba(5,5,16,0.2)';
-  ctx.fillRect(0,0,canvas.width,canvas.height);
-  for(let s of sparks){
-    s.x+=s.vx; s.y+=s.vy;
-    if(s.x<0||s.x>canvas.width) s.vx*=-1;
-    if(s.y<0||s.y>canvas.height) s.vy*=-1;
-    ctx.beginPath();
-    ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
-    ctx.fillStyle='rgba(0,234,255,0.8)';
-    ctx.fill();
-  }
-  requestAnimationFrame(loop);
-}
-loop();
-</script>
-</body>
-</html>
+<footer><div class="shell footer-inner"><span>© <span id="year">2026</span> David S. Leadley</span><span>DESIGN / AUTOMATION / APPLIED AI</span><a href="#home">Back to top ↑</a></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('#main-nav');toggle.addEventListener('click',()=>{const expanded=toggle.getAttribute('aria-expanded')==='true';toggle.setAttribute('aria-expanded',String(!expanded));nav.classList.toggle('open',!expanded)});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{toggle.setAttribute('aria-expanded','false');nav.classList.remove('open')}));</script>
+</body></html>
