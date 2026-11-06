@@ -1,18 +1,32 @@
-# David Leadley — Professional Portfolio
+# David S. Leadley — Creative Technology Portfolio
 
-A responsive, accessible static portfolio highlighting IT systems, automation and applied AI projects.
+A visually driven, responsive portfolio showcasing **creative website design studies** alongside **real software repositories** in automation, MLOps and property analytics.
 
-**Live site:** https://leaderx777.github.io/Portfolio-Website/
+## Review
+- Live site (currently the existing design): https://leaderx777.github.io/Portfolio-Website/
+- Redesign branch: `portfolio-professional-redesign-2026`
+- Draft pull request: https://github.com/Leaderx777/Portfolio-Website/pull/3
 
-## Featured repositories
-- [MLOps Demo](https://github.com/Leaderx777/mlops-demo) — ML model serving, tracking and tests (demonstration).
-- [PropertyScout / Land Scout Lite](https://github.com/Leaderx777/land-scout-lite) — property screening and deal-analysis prototype.
-- [Land Value Predictor](https://github.com/Leaderx777/land-value-predictor) — experimental property valuation research; not an appraisal service.
+## Design showcase (concepts, not client work)
+- **Sense of Pride** — visual identity and website art-direction study.
+- **Simply Delicious** — editorial and digital-product presentation study.
+- **The Dark Warrior** — cinematic cover-design and storytelling study.
 
-## Technology
-Plain HTML and CSS with a minimal progressive-enhancement script. No build tooling required. Responsive layouts, semantic landmarks, keyboard focus styles and reduced-motion support.
+These are concept presentations. They are not represented as launched websites, paid commissions or finished products.
 
-## Updating
-Edit `index.html` for content and `styles.css` for presentation. The résumé is linked from `resume/resume.pdf`; review it for accuracy and freshness before sharing with employers.
+## Technical projects (real GitHub repositories)
+- [PropertyScout / Land Scout Lite](https://github.com/Leaderx777/land-scout-lite) — property-screening prototype.
+- [Land Value Predictor](https://github.com/Leaderx777/land-value-predictor) — experimental valuation research, not an appraisal tool.
+- [MLOps Demo](https://github.com/Leaderx777/mlops-demo) — model-serving, experiment tracking and testing demonstration.
 
-The redesigned site is prepared in a separate branch for review before merging into `main`.
+**Important:** The interface graphics on the portfolio are illustrations, not live application screenshots or evidence of production deployment.
+
+## Implementation
+- Plain HTML, CSS and a small JavaScript navigation enhancement.
+- Mobile-responsive layout, semantic sections, accessible navigation, reduced-motion support.
+- Editorial typography, photographic backgrounds, custom CSS interface mockups.
+- Some imagery is loaded from Unsplash; an internet connection is required to view those photographs.
+- Résumé link points to `resume/resume.pdf`. Verify the document before publishing.
+
+## Publishing
+Review and merge the draft PR into `main` when ready. GitHub Pages is configured for the repository; verify the resulting site after merge.
